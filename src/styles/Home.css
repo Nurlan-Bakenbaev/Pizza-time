@@ -1,0 +1,74 @@
+
+.home {
+  background-image: url("/images/homeBG.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  font-family: "Poppins", sans-serif;
+}
+.d-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+button{
+  transition: 3s ease; 
+}
+.homeContainer button:hover{
+transform: scale(1.1);
+}
+
+.home h1 {
+  font-size: 80px;
+  color: #00ff26bb;
+  font-family: "Fasthand", cursive;
+  text-shadow: 4px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+.homeContainer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #ed7931;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.home a{
+    text-decoration: none;
+}
+.homeContainer button:hover {
+  background-color: #ff5500;
+}
+
+button svg {
+  margin-right: 5px;
+}
+@media screen and (max-width: 375px) {
+  .home h1{
+    font-size: 32px;
+    color: #ed7931;
+  }
+  .homeContainer button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 13px;
+   
+  }
+  .homeContainer button svg{
+    font-size: 15px;
+  }
+}

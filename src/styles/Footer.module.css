@@ -1,0 +1,86 @@
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.followUs {
+  margin: 20px;
+  font-family: "Poppins";
+}
+.footer__social>div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__social a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+.footer a svg {
+  font-size: 60px;
+}
+
+.footer__social a:hover {
+  color: #ff9800;
+
+}
+footer form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+footer label {
+  font-size: 19px;
+}
+input {
+  outline: none;
+  border: none;
+}
+
+form div {
+  display: flex;
+  width: 100%;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 30px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  padding-left: 20px;
+  color: black;
+}
+form div>button {
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+  background-color: #ff9800;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px;
+}
+form div button:hover{
+background-color: #ff6200;
+}
+.news{
+  font-size: 15px;
+}
+@media (max-width: 768px){
+  .footer__social svg{
+width: 30px;
+  }
+  .followUs {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}

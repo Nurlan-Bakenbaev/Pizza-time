@@ -1,0 +1,92 @@
+.contact-form {
+  border-radius: 30px;
+  width: 400px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 40px;
+  box-shadow: 2px 4px 5px 3px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(45deg, #5a5a5a, #383737);
+}
+.wrappper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/images/contactusBG.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 80vh;
+}
+.contact-form div {
+  display: flex;
+  align-items: center;
+  background-size: cover;
+}
+
+.contact-form input,
+textarea {
+  border-radius: 30px;
+  padding-left: 20px;
+  font-size: 1.2em;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+.contact-form button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+.contact-form button:hover {
+  background-color: #ff641c;
+}
+
+.contact-form button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #fea1d4;
+}
+form h2{
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+@media (max-width: 768px){
+  .contact-form input{
+    font-size: 12px;
+  }
+  .contact-form label{
+    font-size: 12px;
+  }
+  .contact-form button {
+    font-size: 12px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 320px){
+  .contact-form {
+    border-radius: 30px;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  }
